@@ -15,7 +15,6 @@ class App extends Component {
     }
   };
   render() {
-    const status = this.state.isMusicPlaying ? 'Playing' : 'Not playing';
     return (
       <div className="App">
         <PlayButton onClick = {this.handleClick.bind(this)} isMusicPlaying = {this.state.isMusicPlaying}/>

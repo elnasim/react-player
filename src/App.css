@@ -11,6 +11,7 @@
   margin: 0 auto;
   position: relative;
   transition: all .25s ease;
+  cursor: pointer;
 }
 
 .PlayButton::after{
